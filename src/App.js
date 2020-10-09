@@ -9,7 +9,12 @@ function App() {
 
   useEffect(() => {
     const fetchData = async () => {
-      // put data fetching code here!
+        const response = await fetch(
+          "http://demo1390455.mockable.io/articles"
+        );
+        const responseJson = await response.json();
+        console.log("Response",responseJson[1]);
+        setFetchedData(responseJson);
     };
 
     if (isEmpty(fetchedData)) {
