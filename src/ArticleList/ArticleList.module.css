@@ -1,0 +1,16 @@
+ul{
+  background-color: rgb(152, 157, 163);
+  border: 1px dashed black;
+  border-radius: 15px;
+  box-shadow: 0 0 5px 5px rgb(247, 109, 94);
+  padding-left: 0px;
+}
+ul li {
+  list-style-type: none;
+  background: linear-gradient(to right, rgb(250, 134, 117), rgb(245, 238, 237) 20%);
+  border: 1px solid rgb(224, 40, 13);
+  border-radius: 15px;
+  margin: 20px 10px;
+
+
+}

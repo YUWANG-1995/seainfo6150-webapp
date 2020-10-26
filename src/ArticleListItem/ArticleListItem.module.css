@@ -1,0 +1,17 @@
+h2 {
+  color: red;
+  font-size: 1.1em;
+}
+
+p{
+  font-size: 0.9em;
+}
+time {
+  font-weight: bold;
+  font-size: 0.7em;
+}
+
+div{
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
