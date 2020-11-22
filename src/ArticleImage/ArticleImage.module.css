@@ -1,0 +1,9 @@
+.image{
+  max-width:50%;
+  height: auto;
+  border-radius: 50%;
+  border: 7px solid red;
+  box-shadow: 2px 10px 5px gray;
+  margin-left: 0px;
+  margin-top: 0px;
+}
